@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <system>
+            <gelf_logger>
+                <host>127.0.0.1</host>
+                <port>12202</port>
+            </gelf_logger>
+        </system>
+    </default>
+</config>
